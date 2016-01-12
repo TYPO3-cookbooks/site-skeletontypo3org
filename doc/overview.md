@@ -23,9 +23,7 @@ This cookbook provides a skeleton for TYPO3 site-cookbooks. The following sectio
 
 
 
-
 # Chef Development Tooling
-
 
 Install [ChefDK](https://downloads.chef.io), which brings already most tools.
 
@@ -42,6 +40,7 @@ We do not use Bundler/Gemfiles, to set those up on a per-repo basis, instead ins
 	chef-gem install thor-scmversion
 
 If executables are not available in `$PATH`, use `chef exec <whatever>` instead.
+
 
 
 ## Berkshelf
@@ -277,4 +276,17 @@ TODO
 
 TODO
 
+
+
+# Cookbook Testing and Continuous Integration
+
+## Testkitchen
+
+TODO add sample configuration for Testkitchen
+
+
+
+## Testkitchen in Travis CI
+
+Question: Can we use Travis CI for running integration tests for our cookbooks without setting up our "own" CI / CD infrastructure. Here is a proof-of-concept of how to run Testkitchen on Travis CI: [https://github.com/zuazo/kitchen-in-travis](https://github.com/zuazo/kitchen-in-travis).
 
